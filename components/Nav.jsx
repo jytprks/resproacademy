@@ -170,11 +170,14 @@ const HeaderStyles = styled.header`
 const Nav = () => {
   const [isNavOpen, setIsNavOpen] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
-
+ 
   useEffect(() => {
     window.addEventListener("resize", () => {
       setIsMobile(window.matchMedia("(max-width:1050px)").matches);
     });
+    setIsMobile(window.matchMedia("(max-width:1050px)").matches)
+    console.log(isMobile)
+    console.log
   }, []);
   return (
     <>
