@@ -101,17 +101,18 @@ height:100vh;
     border: 2px solid #ffffff;
   }
   @media (max-width: 1100px) {
-    .map {
+    display: flex;
+    justify-content: center;
+    height: auto;
+    .map{
       display: none;
     }
-  }
-  @media (max-width: 450px) {
     .social {
       display: none;
     }
     .contact-box {
       width: 100%;
-      height: 100vh;
+      height: auto;
       box-sizing: border-box;
     }
     #contact {

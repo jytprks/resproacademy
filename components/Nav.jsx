@@ -176,8 +176,6 @@ const Nav = () => {
       setIsMobile(window.matchMedia("(max-width:1050px)").matches);
     });
     setIsMobile(window.matchMedia("(max-width:1050px)").matches)
-    console.log(isMobile)
-    console.log
   }, []);
   return (
     <>

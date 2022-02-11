@@ -24,6 +24,9 @@ height:180vh;
   font-weight:900;
   font-size:4.5rem;
 }
+    @media  (max-width: 1100px){
+      height: auto;
+    }
 `
 
 const Training = () => {
