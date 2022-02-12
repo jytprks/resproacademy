@@ -6,6 +6,7 @@ const TrainingCardStyle = styled.div`
   justify-content: center;
   align-items: center;
   .card {
+    cursor: pointer;
     position: relative;
     width: 320px;
     height: 440px;
@@ -52,6 +53,7 @@ const TrainingCardStyle = styled.div`
           padding: 20px 0;
           line-height: 2rem;
           h6 {
+            text-align: center;
             font-weight: 600;
             font-size: 1.5em;
             color: #777;
@@ -63,6 +65,7 @@ const TrainingCardStyle = styled.div`
           padding: 20px 0;
           line-height: 2.4rem;
           p {
+            text-align: justify-center;
             font-weight: 500;
             font-size: 1.5em;
             color: #777;

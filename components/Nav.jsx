@@ -29,6 +29,7 @@ const HeaderStyles = styled.header`
     display: inline-block;
     margin: 0 0.5rem;
     .main {
+      cursor: pointer;
       font-size: 1.6rem;
       font-weight: 500;
       display: inline-block;
@@ -72,6 +73,7 @@ const HeaderStyles = styled.header`
   }
 
   .drop_menu {
+    cursor: pointer;
     position: absolute;
     display: flex;
     flex-direction: column;
@@ -247,12 +249,12 @@ const Nav = () => {
                     </Link>
                   </li>
                   <li>
-                    <Link  href="/team">
+                    <Link  href="/Team">
                     <span className="main">Team</span>
                     </Link>
                   </li>
                   <li>
-                    <Link  href="/about">
+                    <Link  href="/AboutUs">
                     <span className="main">About</span>
                     </Link>
                   </li>
