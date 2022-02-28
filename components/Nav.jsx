@@ -210,38 +210,38 @@ const Nav = () => {
                     </Link>
                     <ul className="drop_menu">
                       <li>
-                        <Link href="/english">
+                        <Link href="/English">
                         <span className="submenu">English</span>
                         </Link>
                       </li>
                       <li>
-                        <Link  href="/english">
+                        <Link  href="/Technology">
                         <span className="submenu">Technology</span>  
                         </Link>
                       </li>
                       <li>
-                        <Link  href="/english">
+                        <Link  href="/CorporateTraining">
                        <span className="submenu"> Corporate training</span>
                         </Link>
                       </li>
                     </ul>
                   </li>
                   <li>
-                    <Link  href="/placements">
+                    <Link  href="/Placements">
                     <span className="main">Placements</span>
                     </Link>
-                    <ul className="drop_menu">
+                    {/* <ul className="drop_menu">
                       <li>
-                        <Link  href="/english">
+                        <Link  href="/Technical">
                         <span className="submenu">Technical</span>
                         </Link>
                       </li>
                       <li>
-                        <Link  href="/english">
+                        <Link  href="/Non-Technical">
                         <span className="submenu"> Non-Technical </span> 
                         </Link>
                       </li>
-                    </ul>
+                    </ul> */}
                   </li>
                   <li>
                     <Link  href="/knowledge">
